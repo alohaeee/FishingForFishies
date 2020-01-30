@@ -17,7 +17,7 @@ private:
     LabelInterface* label;
     bool goPLAY=false;
     std::string Text;
-    size_t Max=12;
+    size_t Max=8;
     SDL_Rect Pos;
     LabelID TypedID;
 

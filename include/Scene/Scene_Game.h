@@ -22,6 +22,7 @@ public:
     explicit Scene_Game(Manager* manager) : Scene(manager) {};
     void init() override
     {
+        EntitiesVector.clear();
         startTimer=false;
         Paused=false;
         END=false;
@@ -208,8 +209,9 @@ public:
     }
     void destroy() override
     {
-        EntitiesVector.clear();
+       
         manager.destroy();
+        
     }
 
     ~Scene_Game() {};

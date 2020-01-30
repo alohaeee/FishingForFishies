@@ -13,3 +13,4 @@
 #include "TimerComponent.h"
 #include "ScoreComponent.h"
 #include "SubMenuController.h"
+#include "AudioComponent.h"
