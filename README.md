@@ -12,16 +12,16 @@ UP,DOWN - to move hook;
 ```
 ## Footage
 - Input player name
-<img src="images/1.png" width="400" height="300">
+<img src="images/1.png">
 
 - Start game
-<img src="images/2.png" width="400" height="300">
+<img src="images/2.png">
 
 - First catch
-<img src="images/3.png" width="400" height="300">
+<img src="images/3.png">
 
 - Score table
-<img src="images/4.png" width="400" height="300">
+<img src="images/4.png">
 
 ## Third-party libraries
 * <a href="https://www.libsdl.org/download-2.0.php">SDL2</a>
