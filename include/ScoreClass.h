@@ -23,7 +23,7 @@ public:
     ScoreClass(std::string path) :path(path)
     {
         from_file.open(path, std::ios::in);
-        if(!from_file.is_open()) std::cerr << "Couldn't open file" << std::endl;
+        if(!from_file.is_open()) std::cerr << "Couldn't open file: " << path << std::endl;
         for(cur=0; !from_file.eof() && cur<TABLE_SIZE; cur++)
         {
             std::string aName;

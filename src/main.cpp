@@ -4,7 +4,7 @@
 Game *game;
 
 
-int main() 
+int main(int argc, char** argv)
 {
 
     //FPS rouitine
